@@ -1,18 +1,14 @@
-.container {
-  height: 490px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
-}
 body {
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   color: #777;
   background-color: #777;
   font-size: 18px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #main-header {
   height: 95px;
-  width: 825px;
   margin: 10px;
   display: grid;
   place-items: center;
@@ -30,7 +26,6 @@ body {
 }
 nav {
   height: 95px;
-  width: 825px;
   margin: 10px;
   display: grid;
   place-items: center;
@@ -47,12 +42,12 @@ section {
 }
 aside {
   height: 288px;
-  width: 310px;
+  width: 425px;
   float: left;
   margin: 10px;
 }
 footer {
-  width: 825px;
+  width: 940px;
   height: 95px;
   margin: 10px;
   display: grid;
