@@ -10,14 +10,24 @@ body {
   background-color: #777;
   font-size: 18px;
 }
-header {
+#main-header {
   height: 95px;
   width: 825px;
   margin: 10px;
   display: grid;
   place-items: center;
 }
-
+.sub-header {
+  height: 70px;
+  display: grid;
+  place-items: center;
+}
+#article-header {
+  background-color: #777;
+  height: 50px;
+  display: grid;
+  place-items: center;
+}
 nav {
   height: 95px;
   width: 825px;
@@ -53,6 +63,8 @@ article {
   color: #ebebeb;
   height: 190px;
   margin: 10px;
+  position: sticky;
+  top: 50px;
 }
 
 header,
