@@ -14,18 +14,16 @@ header {
   height: 95px;
   width: 825px;
   margin: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
 }
 
 nav {
   height: 95px;
   width: 825px;
   margin: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
 }
 article {
   margin: auto;
@@ -39,17 +37,16 @@ section {
 }
 aside {
   height: 288px;
-  width: 315px;
+  width: 310px;
   float: left;
   margin: 10px;
 }
 footer {
-  display: inline-flex;
   width: 825px;
   height: 95px;
   margin: 10px;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
 }
 article {
   background-color: #777;
