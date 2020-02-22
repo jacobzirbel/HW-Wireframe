@@ -7,6 +7,14 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.section-aside-wrapper {
+  display: flex;
+  flex-direction: row;
+}
 #main-header {
   height: 95px;
   margin: 10px;
@@ -38,12 +46,11 @@ section {
   height: 288px;
   width: 495px;
   margin: 10px;
-  float: left;
 }
 aside {
   height: 288px;
   width: 425px;
-  float: left;
+
   margin: 10px;
 }
 footer {
@@ -74,7 +81,6 @@ p {
   color: #777;
   height: 50px;
   margin: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
 }
